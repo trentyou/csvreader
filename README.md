@@ -8,4 +8,6 @@ Usage
 ------
 
     require 'csv'
-    
+
+    csv_array = CSV.read("File Location")
+    parser = PersonParser.new(csv_array)
